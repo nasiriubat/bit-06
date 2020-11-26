@@ -1,0 +1,369 @@
+                            /* BASIC SETUP */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: aachenbt;
+    src: url(../font/aachenn.ttf);
+}
+html{
+    font-size: 62.5%;
+    scroll-behavior: smooth;
+}
+body {
+    font-family: aachenbt;
+    line-height: 1.3rem;
+    background: #1d1d23;
+    width: 100%;
+}
+ul li{
+    list-style-type: none;
+}
+h1{
+    font-size: 5rem;
+    color: #e58f00;
+    line-height:5rem;
+} 
+
+:focus{
+    outline: 0;
+}
+
+                    /*reuse*/
+                
+.row{
+    max-width: 119rem;
+    margin: 10rem auto;
+}
+section{
+    padding: 7rem;
+}
+.little-description{
+    font-size: 3rem !important;
+    width: 100%;
+    line-height: 4rem !important;
+    text-align: left;
+}
+h2{
+    font-size: 4rem;
+    letter-spacing: .3rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-top: 10rem;
+    margin-bottom: 2rem;
+    color: #fff;
+    text-align: left;
+    line-height: 5rem;
+}
+h3{
+    font-size: 2.5rem;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #e58f00;
+    line-height: 3rem;
+    margin-top: 2rem;
+    
+}
+h4{
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-top: 2.5rem;
+    color: #fff;
+    line-height: 2rem;
+}
+.box{
+    padding: 0%;
+}
+.box p{
+   font-size: 1.6rem;
+   font-weight: 300;
+   margin-top: 2rem; 
+   line-height: 2rem;
+   color: #fff;
+}
+
+
+                            /*===========header============*/
+header{
+    background:linear-gradient(rgba(40, 40, 45, .9),rgba(40, 40, 45, .9)),url(../image/bg1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center bottom;
+    height: 100vh;
+    position: relative;
+    background-attachment: fixed;
+}
+.nav{
+    padding-left: rem;
+    padding-top: 3rem;
+    
+}
+.logo{
+    height: 2rem;
+    width: auto;
+}
+
+/* MAIN NAVIGATION */
+
+.main-nav{
+    text-align: center;
+    margin-right: 2rem;
+}
+.main-nav li{
+    display: inline-block;
+    margin:0 1rem;
+    cursor: pointer;
+    vertical-align: middle;
+    padding-top: 2rem;
+}
+.main-nav li:first-child{
+    margin-left: 0;
+}
+
+.main-nav li:nth-child(5){
+    margin-right: 10rem;
+    margin-left: 10rem;
+    padding: 0;
+    
+}
+.main-nav li a:link,
+.main-nav li a:visited{
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1rem 1.6rem;
+    display: inline-block;
+    font-size: 1.6rem;
+    transition: .3s;
+}
+.main-nav li:hover a:link,
+.main-nav li:hover a:visited{
+    color: #E58F00;
+}
+
+#active{
+    color: #E58F00;
+}
+.pizza{
+    width: 40rem;
+    height: auto;
+}
+.hero-text-box{
+    padding-left: 5rem;
+    padding-right: 7rem;
+    padding-top: 5rem;
+}
+.btn:link,
+.btn:visited,
+.btn{
+    background: #E58F00;
+    border-bottom: .3rem solid #000;
+    color: #000;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1.5rem 4rem;
+    border-radius: .3rem;
+    display: inline-block;
+    margin-top: 4.5rem;
+    font-size: 1.5rem;
+}
+.container1{
+    margin-bottom: rem;
+}
+
+
+                          /*===========about============*/
+
+.about-section{
+    padding-top:0rem;
+    padding-bottom: 0rem;
+}
+.about-img{
+    width: 55rem;
+    height: 55rem;
+}
+
+                         /*===========quality============*/
+
+.quality-section{
+    position: relative;
+    padding-top: 0 !important;
+    margin-bottom: 170rem;
+}
+.quality01{
+    width: 100%;
+    height: 165rem;
+    position: absolute;
+    top: 10rem;
+    left:0 ;
+    right: ;
+}
+.quality02{
+    height: 75rem;
+    width: auto;
+    position: absolute;
+    top:3rem ;
+    right: 0;
+}
+.quality03{
+    width: 85rem;
+    position: absolute;
+    top: 75rem;
+    left: ;
+    right:0 ;
+}
+.quality04{
+    height: 61rem;
+    width: auto;
+    position: absolute;
+    top: 115rem;
+    left:0 ;
+}
+.quality-text{
+    width: 55rem;
+    position: absolute;
+    top: 30rem;
+    left: 20rem;
+}
+
+                    /*gallery*/
+
+
+.gallery-section h2{
+    text-align: center;
+    margin-top: 0;
+}
+.gallery-section img{
+    width: 35rem;
+}
+.gallery-row1{
+    margin-bottom: 0;
+}
+.gallery-row2{
+    margin-top: 0rem !important;
+    margin-bottom: 0 !important;
+}
+
+                /*ENJOY*/
+
+.enjoy-section{
+   background-image: url(../image/bg2.png);
+   background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 95vh;
+    background-attachment: fixed;
+}
+
+
+.enjoy-text{
+    background-color: rgba(31, 31, 38, .6);
+width: 70rem;
+height: 48rem;
+margin: auto;
+padding:5rem 5rem 0 5rem;
+border: 1rem solid #E58F00;
+}
+.enjoy-text h2,
+.enjoy-text p{
+    text-align: center;
+}
+.enjoy-text h2{
+    margin-top: 0;
+}
+
+                                /*menu*/
+
+.menu-section h2{
+    text-align: center;
+    margin-top: 0;
+}
+.menu{
+    text-align:left ;
+}
+.menu-section img{
+    width: 35rem;
+}
+.price{
+    font-size: 2.2rem;
+}
+
+                                /*offer*/
+
+.offer{
+    padding-left: 0;
+    position: relative;
+    margin-bottom: 40rem;
+   
+}
+.bg-image{
+    position: absolute;
+    height: 45rem;
+    width: 100%;
+    top: 10rem;
+}
+.last-img{
+position: absolute;
+top: 0;
+left: 0;
+}
+.offer-text{
+position: absolute;
+width: 60rem;
+right: 20rem;
+}
+
+                        /*footer*/
+
+.footer-section{
+    background: #35353b;
+    padding: 12rem 0;
+    text-align: center;
+}
+.footer-section li{
+    display: inline-block;
+    margin: 0 2rem;
+}
+
+.footer-section li a{
+    color: #fff;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 2.4rem;
+}
+.footer-section li:hover a{
+    color: #30bae7;
+}
+.social-link{
+    margin-top: 4.5rem;
+
+}
+.social-link ul li{
+    display: inline-block;
+    margin: 0 .5rem;
+    
+}
+.social-link ul li a i{
+    color: #35353b;
+}
+.social-link ul li a:link i::before{
+    background: #fff;
+    width: 2rem;
+    height: 2rem;
+    display: inline-block;
+    font-size: 2rem;
+    padding: 1rem;
+    border-radius: 50%;
+    transition: .5s;
+}
+.social-link ul li a:hover i::before{
+    background: #fff;
+    transform: rotate(360deg);
+    border-radius: 50%;
+}
